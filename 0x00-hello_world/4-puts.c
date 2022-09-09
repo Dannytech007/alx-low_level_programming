@@ -1,16 +1,10 @@
 #include <stdio.h>
 
-
-
 /**
- *
- *  * main - print c
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ *main - print c
+ *   
+ *Return: Always 0 (Success)
+ */
 
 int main(void)
 
