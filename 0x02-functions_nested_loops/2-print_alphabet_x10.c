@@ -1,19 +1,12 @@
-#include "holberton.h"
-
+#include "willson"
 /**
- * print_alphabet - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * add - adds two integers and returns the result
+ * @a: an integer to add to b
+ * @b: an integer to add to a
+ * Return: Void.
  */
 
-void print_alphabet(void)
+int add(int a, int b)
 {
-	char alp = 'a';
-
-	while (alp <= 'z')
-	{
-		_putchar (alp);
-		alp++;
-
-	}
-	_putchar ('\n');
+	return (a + b);
+}
