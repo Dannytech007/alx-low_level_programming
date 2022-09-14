@@ -1,17 +1,13 @@
-#include "main.h"     
+#include <unistd.h>
 
-/**   
- *   print_alphabet - print alphabet                                                                                                     *   Return: void
- */
-void print_alphabet(void)
+/**
+* _putchar - writes the character c to stdout 
+* @c: The Character to print 
+*
+* Return: on success 1.
+* on error, -1 is returned and error is set approporiately
+*/
+int _putchar(char c) 
 {
-char letter = 'a';  
-while (letter <= 'z')                                                                                                                
-	     {   
- _putchar(letter);                                                                                                           
-             letter++;                                                                                                                  
-	         }           
-putchar('\n');                                                                                                                      
+return (writes (1, &c, 1));
 }
-return (0);
-	}
