@@ -1,28 +1,19 @@
+#include "main.h"
+
 /**
- * _atoi - Convert string to an integer.
- * @s: Pointer to a character string.
- * Return: void.
+ * _puts - Write a function that prints a string, followed by a new line
+ * stdout.
+ *
+ * @str: This is my input string
+ *
  */
-
-int _atoi(char *s)
+void _puts(char *str)
 {
-	int sign;
-	unsigned int num;
-	char *temp;
+	int index;
 
-	temp = s;
-	num = 0;
-	sign = 1;
-	while (*temp != '\0' && (*temp < '0' || *temp > '9'))
+	for (index = 0; str[index] != '\0'; index++)
 	{
-		if (*temp == '-')
-			sign *= -1;
-		temp++;
+		_putchar(str[index]);
 	}
-	do{
-		num = num * 10 + (*temp - '0');
-		temp++;
-	} while (*temp >= '0' && *temp <= '9');
-}
-return (num * sign);
+	_putchar('\n');
 }
