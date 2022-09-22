@@ -1,5 +1,6 @@
 #include "main.h"
-/**leet - encodes a string into 1337.
+/**
+ * leet - encodes a string into 1337.
  * letters a and A are replaced by 4.
  * Letters e and E are replaced by 3
  * Letters o and O are replaced by 0
