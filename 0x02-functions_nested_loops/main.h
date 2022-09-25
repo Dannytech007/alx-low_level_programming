@@ -1,5 +1,11 @@
-#ifndef main.h
-#define main.h
+#ifndef MAIN_H
+#define MAIN_H
+/**
+*main - header file for protoypes
+*char prototypes (char)
+*void protoypes (void)
+*int protoypes (int)
+*/
 
 char _putchar(char c);
 void print_alphabet(void);
@@ -15,4 +21,4 @@ int add(int one, int two);
 void print_to_98(int n);
 void print_times_table(int n);
 
-#endif /* main.h */
+#endif /* MAIN_H */
